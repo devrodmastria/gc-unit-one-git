@@ -117,7 +117,11 @@ $ git remote add origin https://github.com/devrodmastria/gc-unit-one-git
 // moved my folders and files from local repo to new folder created by Visual Studio
 // manually added only the relevant folders and files using Git Changes panel in VS
 
-### Step 5 and 6
+### Step 5 
+// after a few fails trying to create a remote repo via the command line, 
+// I decided to do it via GitHub website so step 6 was more productive!
+
+### Step 6
 $ cd C:/
 $ ls
 $ cd C:/Users/rodri/Source/Repos/gc-unit-one-practice
@@ -127,6 +131,3 @@ $ git add my-steps.txt
 $ git commit -m 'starting a menu'
 $ git push origin main
 // done!
-
-### Step 7
-*** DO NOT RECORD STEP 7 ***
