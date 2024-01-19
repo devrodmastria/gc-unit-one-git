@@ -1,0 +1,127 @@
+### Step 2A
+
+rodri@ASUS-ZENBOOK MINGW64 /
+$ pwd
+/
+
+rodri@ASUS-ZENBOOK MINGW64 /
+$ cd ~
+
+rodri@ASUS-ZENBOOK MINGW64 ~
+$ pwd
+/c/Users/rodri
+
+rodri@ASUS-ZENBOOK MINGW64 ~
+$
+
+### Step 2B
+$ ls
+$ cd OneDrive
+$ ls
+$ cd Desktop
+
+### Step 2C
+$ cd gc-unit1-git-practice
+
+### Step 2D
+/c/Users/rodri/OneDrive/Desktop/gc-unit1-git-practice
+
+### Step 2E
+$ ls
+
+### Step 2F
+rodri@ASUS-ZENBOOK MINGW64 ~/OneDrive/Desktop/gc-unit1-git-practice
+$ ls
+my-steps.txt
+
+### Step 2G
+$ cd /
+
+### Step 2H
+$ pwd
+/
+
+### Step 2I
+$ ls
+LICENSE.txt        cmd/  git-bash.exe*  proc/         unins000.exe*
+ReleaseNotes.html  dev/  git-cmd.exe*   tmp/          unins000.msg
+bin/               etc/  mingw64/       unins000.dat  usr/
+
+### Step 2J
+$ cd ~
+
+### Step 2K
+$ ls
+$ cd OneDrive/Desktop/gc-unit1-git-practice
+
+### Step 3A
+$ mkdir veggies
+$ mkdir meats
+$ mkdir desserts
+
+### Step 3B
+$ mv desserts sweets
+
+### Step 3C
+$ mkdir proteins
+
+### Step 3D
+$ mv meats proteins
+
+### Step 3E
+$ cd veggies
+$ touch carrot.txt
+$ touch pea.txt
+
+### Step 3F
+$ cd ..
+$ cd sweets
+$ touch cookie.txt
+
+### Step 3G
+$ mv cookie.txt donut.txt
+
+### Step 3H
+$ cd ..
+$ touch thing.txt
+
+### Step 3I
+$ cp thing.txt tofu.txt
+
+### Step 3J
+$ mv tofu.txt proteins
+
+### Step 3K
+$ cp thing.txt crab.txt
+$ mv crab.txt proteins/meats
+
+### Step 3L
+$ rm thing.txt
+
+### Step 3M
+$ cp -r veggies plants
+
+### Step 3N
+$ mkdir drinks & rm -r drinks
+
+### Step 4
+$ git init
+$ git add .
+$ git status
+$ git add my-steps.txt //includes new changes to last commit
+$ git status
+$ git remote add origin https://github.com/devrodmastria/gc-unit-one-git
+// creating a new repo from command line didn't work for me
+// created new repo via GitHub website
+// cloned using Visual Studio
+// moved my folders and files from local repo to new folder created by Visual Studio
+// manually added only the relevant folders and files using Git Changes panel in VS
+
+### Step 5
+
+
+### Step 6
+
+
+### Step 7
+*** DO NOT RECORD STEP 7 ***
